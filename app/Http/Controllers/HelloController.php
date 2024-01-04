@@ -43,5 +43,5 @@ class HelloController extends Controller
             . tag('h1', 'Other') . tag('p', 'this is Other page')
             . $end;
         return $html;
-    }ymm
+    }
 }
