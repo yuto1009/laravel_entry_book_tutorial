@@ -20,7 +20,6 @@ Route::get('/', function () {
 });
 
 Route::get('hello', 'App\Http\Controllers\HelloController@index');
-Route::post('hello', 'App\Http\Controllers\HelloController@post');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
