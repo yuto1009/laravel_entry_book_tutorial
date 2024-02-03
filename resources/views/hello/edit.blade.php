@@ -19,7 +19,7 @@
                 <th>mail: </th><td><input type="text" name="mail" value="{{ $form->mail}}"></td>
             </tr>
             <tr>
-                <th>age: </th><td><input type="text" name="mail" value="{{ $form->age }}"></td>
+                <th>age: </th><td><input type="text" name="age" value="{{ $form->age }}"></td>
             </tr>
             <tr>
                 <th></th><td><input type="submit" value="send"></td>
@@ -29,5 +29,5 @@
 @endsection
 
 @section('footer')
-copyright 2024 endfor
+copyright 2024 endo.
 @endsection
